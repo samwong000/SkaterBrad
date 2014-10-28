@@ -13,7 +13,7 @@ class GameScene: SKScene {
     var hero = SKSpriteNode()
 
     override func didMoveToView(view: SKView) {
-
+        //
         // Physics - setting gravity to game world
         self.physicsWorld.gravity = CGVectorMake(0.0, -9.8)
         
